@@ -7,7 +7,7 @@
   /** @ngInject */
   function factoryDefination($http) {
     var getItemData = function () {
-      return $http.get("http://jsonplaceholder.typicode.com/posts").then(
+      return $http.get("//jsonplaceholder.typicode.com/posts").then(
         function successFunc(response) {
           return response.data;
         },
